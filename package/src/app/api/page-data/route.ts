@@ -4,24 +4,24 @@ import { NextResponse } from "next/server";
 
 const contactBar = {
   contactItems: [
-    {
-      type: "email",
-      label: "hello@imsruthi.com",
-      icon: "/images/icon/mail-icon.svg",
-      link: "mailto:hello@imsruthi.com"
-    },
+    // {
+    //   type: "email",
+    //   label: "hello@imsruthi.com",
+    //   icon: "/images/icon/mail-icon.svg",
+    //   link: "mailto:hello@imsruthi.com"
+    // },
     {
       type: "phone",
-      label: "+901 5588 2500",
+      label: "+7 903 907-33-34",
       icon: "/images/icon/call-icon.svg",
-      link: "tel:+90155882500"
+      link: "tel:+7 903 907-33-34"
     },
-    {
-      type: "website",
-      label: "www.mywebsite.com",
-      icon: "/images/icon/web-icon.svg",
-      link: "https://www.mywebsite.com"
-    }
+    // {
+    //   type: "website",
+    //   label: "www.mywebsite.com",
+    //   icon: "/images/icon/web-icon.svg",
+    //   link: "https://www.mywebsite.com"
+    // }
   ],
   // socialItems: [
   //   {
@@ -47,17 +47,18 @@ const educationData = {
   education: [
     {
       title: "Подтверждённые запасы",
-      description: "Документы по запросу (NDA). Запасы подтверждены, проект готов к масштабу."
+      description: "Документы по NDA. Запасы подтверждены; проект готов к масштабированию."
     },
     {
       title: "Паспорта качества",
-      description: "Премиальный D/DГ с устойчивыми показателями. Премия к рынку держится."
+      description: "Марка D/DГ · 6500–6950 ккал, низкие примеси (P ≈0,009%, зола 2,6–5%). Премия к рынку стабильна."
     },
     {
       title: "Инфраструктура и логистика",
-      description: "Две фабрики и своя ж/д. Отгрузка — сегодня, маршруты согласованы."
+      description: "2 УСО и собственная ж/д (≈19 км, квоты на восток). Отгрузка возможна сегодня, маршруты согласованы."
     }
   ],
+
   skills: [
     {
       name: "Марка D/DГ",
@@ -108,15 +109,15 @@ const contactLinks = {
     },
   ],
   contactInfo: [
-    {
-      type: "email",
-      label: "hello@imsruthi.com",
-      link: "mailto:hello@imsruthi.com"
-    },
+    // {
+    //   type: "email",
+    //   label: "hello@imsruthi.com",
+    //   link: "mailto:hello@imsruthi.com"
+    // },
     {
       type: "phone",
-      label: "+901 5588 2500",
-      link: "tel:+90155882500"
+      label: "+7 903 907-33-34",
+      link: "tel:+79039073334"
     }
   ]
 }

@@ -15,16 +15,16 @@ const index = () => {
                                 </div> */}
                             </div>
                             <h2 className="text-secondary font-normal max-w-md xl:max-w-xl text-xl md:text-2xl mt-2">
-                                98+ млн тонн премиального D/DГ
+                                97+ млн тонн запасов D/DГ
                             </h2>
                         </div>
                         <p className="text-secondary font-normal max-w-md xl:max-w-xl">РФ, Казахстан, Азербайджан, Китай, Индия — покупатели ждут больше тонн; наращивание добычи при финансировании даёт быстрый рост выручки.</p>
                     </div>
-                    <Image src={"/images/home/banner/ice_cave_685x650_cover.png"} alt="banner-img" width={685} height={650} className="block lg:hidden" />
+                    <Image src={"/images/home/banner/hero01.jpg"} alt="banner-img" width={685} height={650} className="block lg:hidden" />
                 </div>
             </div>
             <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
-                <Image src={"/images/home/banner/ice_cave_685x650_cover.png"} alt="banner-img" width={685} height={650} className=" absolute right-0 top-0 z-1 rounded-l-[10px]" />
+                <Image src={"/images/home/banner/hero01.jpg"} alt="banner-img" width={685} height={650} className=" absolute right-0 top-0 z-1 rounded-l-[10px]" />
             </div>
         </section>
     )
