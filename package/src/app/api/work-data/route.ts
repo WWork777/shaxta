@@ -2,7 +2,11 @@ import { NextResponse } from "next/server";
 
 const workData = [
   {
+<<<<<<< HEAD
     image: "/images/04/coal-laboratory-analysis.jpg",
+=======
+    image: "/images/04/lab-coal-sample.jpg",
+>>>>>>> e6822f8dff086773df1787d4e30f27b710bbbbe1
     title: "Паспорта качества D/DГ",
     // client: "высокое и стабильное качество",
     description:
@@ -21,8 +25,13 @@ const workData = [
     ]
   },
   {
+<<<<<<< HEAD
     image: "/images/04/lab-coal-sample.jpg",
     title: "Установка сухого обогащения",
+=======
+    image: "/images/04/coal-laboratory-analysis.jpg",
+    title: "Обогащение: 2 УСО",
+>>>>>>> e6822f8dff086773df1787d4e30f27b710bbbbe1
     // client: "сухая сепарация, стабильная фракция",
     description:
       "Две линии УСО позволяют быстро выпускать целевую фракцию. Качество контролируется на выходе.",
@@ -51,6 +60,10 @@ const workData = [
       "Быстрый рост объёмов",
       "Собственная маневровая тяга",
       "Маршрутные отправки",
+<<<<<<< HEAD
+=======
+      "Емкость тупика до 50 вагонов",
+>>>>>>> e6822f8dff086773df1787d4e30f27b710bbbbe1
       "Прямой доступ к Транссибу",
       "Без посредников в логистике",
       "Квоты на Восточный полигон",
@@ -59,7 +72,11 @@ const workData = [
   },
   {
     image: "/images/04/coal-mine.jpg",
+<<<<<<< HEAD
     title: "Сбыт",
+=======
+    title: "Оффтейк и сбыт",
+>>>>>>> e6822f8dff086773df1787d4e30f27b710bbbbe1
     // client: "РФ, Казахстан, Азербайджан, Китай, Индия",
     description:
       "Рынок сбыта уже есть. Под финансирование подписываем дополнительные объёмы.",

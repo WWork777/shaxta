@@ -16,12 +16,21 @@ const contactBar = {
       icon: "/images/icon/call-icon.svg",
       link: "tel:+7 903 907-33-34"
     },
+<<<<<<< HEAD
     {
       type: "website",
       label: "наш сайт",
       icon: "/images/icon/web-icon.svg",
       link: "https://bzmetr.ru/"
     }
+=======
+    // {
+    //   type: "website",
+    //   label: "www.mywebsite.com",
+    //   icon: "/images/icon/web-icon.svg",
+    //   link: "https://www.mywebsite.com"
+    // }
+>>>>>>> e6822f8dff086773df1787d4e30f27b710bbbbe1
   ],
   // socialItems: [
   //   {
@@ -49,6 +58,7 @@ const educationData = {
       title: "Подтверждённые запасы",
       description: "Документы по NDA. Запасы подтверждены; проект готов к масштабированию."
     },
+<<<<<<< HEAD
 
     {
       title: "Документы сертификаты и лицензии по запросу",
@@ -59,6 +69,16 @@ const educationData = {
       title: "Полная призентация",
       description: "С подробным описанием по номеру телефона — передадим паспорта, лицензии и инфраструктуру."
     },
+=======
+    {
+      title: "Паспорта качества",
+      description: "Марка D/DГ · 6500–6950 ккал, низкие примеси (P ≈0,009%, зола 2,6–5%). Премия к рынку стабильна."
+    },
+    {
+      title: "Инфраструктура и логистика",
+      description: "2 УСО и собственная ж/д (≈19 км, квоты на восток). Отгрузка возможна сегодня, маршруты согласованы."
+    }
+>>>>>>> e6822f8dff086773df1787d4e30f27b710bbbbe1
   ],
 
   skills: [
