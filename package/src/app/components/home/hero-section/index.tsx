@@ -8,17 +8,17 @@ const index = () => {
                     <div className="flex flex-col gap-4 md:gap-7 max-w-2xl">
                         <div>
                             <div className="flex items-center gap-8">
-                                <h1>Угольная шахта <br /> в Кузбассе
+                                <h1>Инвестируйте в шахту в Кузбассе
                                 </h1>
                                 {/* <div className="wave">
                                     <Image src={"/images/home/banner/wave-icon.svg"} alt="wave-icon" width={62} height={62} className="" />
                                 </div> */}
                             </div>
                             <h2 className="text-secondary font-normal max-w-md xl:max-w-xl text-xl md:text-2xl mt-2">
-                                97+ млн тонн запасов D/DГ
+                                Стабильный доход на 50 лет
                             </h2>
                         </div>
-                        <p className="text-secondary font-normal max-w-md xl:max-w-xl">РФ, Казахстан, Азербайджан, Китай, Индия — покупатели ждут больше тонн; наращивание добычи при финансировании даёт быстрый рост выручки.</p>
+                        <p className="text-secondary font-normal max-w-md xl:max-w-xl">РФ, Казахстан, Азербайджан, Даже в условиях санкций и сжатой кредитной базы актив остаётся рентабельным за счёт себестоимости, качества и отсутствия долговой нагрузки.</p>
                     </div>
                     <Image src={"/images/home/banner/hero01.jpg"} alt="banner-img" width={685} height={650} className="block lg:hidden" />
                 </div>

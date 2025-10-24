@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 
 const workData = [
   {
-    image: "/images/04/lab-coal-sample.jpg",
+    image: "/images/04/coal-laboratory-analysis.jpg",
     title: "Паспорта качества D/DГ",
     // client: "высокое и стабильное качество",
     description:
@@ -21,8 +21,8 @@ const workData = [
     ]
   },
   {
-    image: "/images/04/coal-laboratory-analysis.jpg",
-    title: "Обогащение: 2 УСО",
+    image: "/images/04/lab-coal-sample.jpg",
+    title: "Установка сухого обогащения",
     // client: "сухая сепарация, стабильная фракция",
     description:
       "Две линии УСО позволяют быстро выпускать целевую фракцию. Качество контролируется на выходе.",
@@ -51,7 +51,6 @@ const workData = [
       "Быстрый рост объёмов",
       "Собственная маневровая тяга",
       "Маршрутные отправки",
-      "Емкость тупика до 50 вагонов",
       "Прямой доступ к Транссибу",
       "Без посредников в логистике",
       "Квоты на Восточный полигон",
