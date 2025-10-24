@@ -16,12 +16,12 @@ const contactBar = {
       icon: "/images/icon/call-icon.svg",
       link: "tel:+7 903 907-33-34"
     },
-    // {
-    //   type: "website",
-    //   label: "www.mywebsite.com",
-    //   icon: "/images/icon/web-icon.svg",
-    //   link: "https://www.mywebsite.com"
-    // }
+    {
+      type: "website",
+      label: "наш сайт",
+      icon: "/images/icon/web-icon.svg",
+      link: "https://bzmetr.ru/"
+    }
   ],
   // socialItems: [
   //   {
@@ -49,14 +49,16 @@ const educationData = {
       title: "Подтверждённые запасы",
       description: "Документы по NDA. Запасы подтверждены; проект готов к масштабированию."
     },
+
     {
-      title: "Паспорта качества",
-      description: "Марка D/DГ · 6500–6950 ккал, низкие примеси (P ≈0,009%, зола 2,6–5%). Премия к рынку стабильна."
-    },
-    {
-      title: "Документы и сертификаты",
+      title: "Документы сертификаты и лицензии по запросу",
       description: "Документы по запросу (NDA). Сертификаты качества — по запросу."
-    }
+    },
+
+    {
+      title: "Полная призентация",
+      description: "С подробным описанием по номеру телефона — передадим паспорта, лицензии и инфраструктуру."
+    },
   ],
 
   skills: [

@@ -8,23 +8,42 @@ const index = () => {
                     <div className="flex flex-col gap-4 md:gap-7 max-w-2xl">
                         <div>
                             <div className="flex items-center gap-8">
-                                <h1>Инвестируйте в шахту в Кузбассе
-                                </h1>
-                                {/* <div className="wave">
-                                    <Image src={"/images/home/banner/wave-icon.svg"} alt="wave-icon" width={62} height={62} className="" />
-                                </div> */}
+                                <h1>Инвестируйте в шахту Кузбасса</h1>
                             </div>
+
+                            {/* H2 — оставил только 2 выделения */}
                             <h2 className="text-secondary font-normal max-w-md xl:max-w-xl text-xl md:text-2xl mt-2">
-                                Стабильный доход на 50 лет
+                                И получите <span className="font-semibold text-black">стабильный доход</span> <br /> на ближайшие{" "}
+                                <span className="font-semibold text-black">50 лет</span>
                             </h2>
                         </div>
-                        <p className="text-secondary font-normal max-w-md xl:max-w-xl">РФ, Казахстан, Азербайджан, Даже в условиях санкций и сжатой кредитной базы актив остаётся рентабельным за счёт себестоимости, качества и отсутствия долговой нагрузки.</p>
+
+                        {/* P — сократил до 2 выделений */}
+                        <p className="text-secondary font-normal max-w-md xl:max-w-xl">
+                            Даже в условиях санкций и нестабильности угольного рынка актив остаётся{" "}
+                            <span className="font-semibold text-black">рентабельным</span> благодаря качеству Д/ДГ и{" "}
+                            <span className="font-semibold text-black">собственной ж/д инфраструктуре</span>.
+                        </p>
                     </div>
-                    <Image src={"/images/home/banner/hero01.jpg"} alt="banner-img" width={685} height={650} className="block lg:hidden" />
+
+                    <Image
+                        src={"/images/home/banner/hero01.jpg"}
+                        alt="banner-img"
+                        width={685}
+                        height={650}
+                        className="block lg:hidden"
+                    />
                 </div>
             </div>
+
             <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
-                <Image src={"/images/home/banner/hero01.jpg"} alt="banner-img" width={685} height={650} className=" absolute right-0 top-0 z-1 rounded-l-[10px]" />
+                <Image
+                    src={"/images/home/banner/hero01.jpg"}
+                    alt="banner-img"
+                    width={685}
+                    height={650}
+                    className=" absolute right-0 top-0 z-1 rounded-l-[10px]"
+                />
             </div>
         </section>
     )
