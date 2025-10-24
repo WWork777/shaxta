@@ -7,7 +7,6 @@ const ExperienceSec = () => {
             title: "Высокая калорийность и низкие примеси",
             company: "Стабильное качество угля",
             type: "марка D/DГ, калор. 6500–6950",
-<<<<<<< HEAD
             description:
                 "Д/ДГ 6500–6950 ккал, P 0,009%, зола 2,6–5%, Fe₂O₃ ≤ 0,3%, Al₂O₃ ≤ 1,2% — предсказуемая металлургическая рецептура и ценовая премия к стандартному рынку."
         },
@@ -42,40 +41,12 @@ const ExperienceSec = () => {
             type: "Проходка новых горных выработок и пополнение оборотных средств",
             description:
                 "Инвестиции направляются на проходку новых горных выработок и пополнение оборотных средств. Залогов и обременений нет. Расчётная окупаемость — 4,5 года."
-=======
-            description: "Зольность 2,6–5%, фосфор ≈0,009%. Параметры повторяемые по пластам — предсказуемая технология, ниже издержки на очистку, устойчивая премия к рынку."
-        },
-        {
-            year: "Логистика",
-            title: "Промышленная база и железная дорога",
-            company: "Инфраструктура к отгрузке",
-            type: "2 УСО, ж/д и квоты на восток",
-            description: "2 линии сухой сепарации, собственная ж/д станция (≈210 тыс. т/мес) и 19,2 км путей. Отгрузка возможна в день обращения, наращивание объёмов — быстро."
-        },
-        {
-            year: "Спрос",
-            title: "Оффтейк на внутренний и экспортный рынки уже есть.",
-            company: "Спрос и продажи",
-            type: "РФ, КЗ, Азербайджан, Китай, Индия",
-            description: "Покупатели подтверждены как на внутреннем рынке, так и на экспорт. График отгрузок выдерживаем, готовы подписать долгосрочные и дополнительные объёмы."
-        },
-        {
-            year: "Капитал",
-            title: "Инвестиции идут в рост объёмов, а не в эксперименты.",
-            company: "Инвест-вход",
-            type: "доля 49% или 100% пакета",
-            description: "Капитал направляется в добычу и оборотку. Простая структура входа, прозрачные правила. Запуск 2–3 месяца, масштаб быстро наращивает денежный поток (окупаемость по модели — 4–5 лет)."
->>>>>>> e6822f8dff086773df1787d4e30f27b710bbbbe1
         }
     ];
 
     return (
         <section>
-<<<<<<< HEAD
             <div className="pt-16 md:pt-24 pb-8 md:pb-10">
-=======
-            <div className="py-16 md:py-32">
->>>>>>> e6822f8dff086773df1787d4e30f27b710bbbbe1
                 <div className="container mx-auto px-4">
                     <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
                         <h2>Почему это выгодно</h2>
@@ -84,21 +55,15 @@ const ExperienceSec = () => {
 
                     <div className="space-y-7 md:space-y-12">
                         {experiences.map((exp, index) => (
-<<<<<<< HEAD
                             <div
                                 key={index}
                                 className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 md:gap-4 xl:gap-8 items-start relative"
                             >
                                 <div>
-=======
-                            <div key={index} className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 md:gap-4 xl:gap-8 items-start relative">
-                                <div className="">
->>>>>>> e6822f8dff086773df1787d4e30f27b710bbbbe1
                                     <h3 className="font-bold mb-2 text-black">{exp.year}</h3>
                                     <h4 className="text-lg font-normal">{exp.title}</h4>
                                 </div>
 
-<<<<<<< HEAD
                                 <div className="relative">
                                     {index < experiences.length && (
                                         <div
@@ -113,19 +78,6 @@ const ExperienceSec = () => {
                                                 }`}
                                         >
                                             {index === 1 && <div className="w-1.5 h-1.5 rounded-full bg-primary"></div>}
-=======
-                                <div className=" relative">
-                                    {index < experiences.length && (
-                                        <div className={`absolute left-0 top-3 w-px ${index < experiences.length - 1 ? 'h-40' : 'h-30'} bg-softGray`}></div>
-                                    )}
-
-                                    <div className="no-print absolute left-0 top-0 transform -translate-x-1/2">
-                                        <div className={`no-print w-3.5 h-3.5 rounded-full border-1 bg-white flex items-center justify-center ${index === 1 ? 'border-primary' : 'border-black'
-                                            }`}>
-                                            {index === 1 && (
-                                                <div className="w-1.5 h-1.5 rounded-full bg-primary"></div>
-                                            )}
->>>>>>> e6822f8dff086773df1787d4e30f27b710bbbbe1
                                         </div>
                                     </div>
 
@@ -142,7 +94,6 @@ const ExperienceSec = () => {
                                 </div>
                             </div>
                         ))}
-<<<<<<< HEAD
 
                         {/* --- CTA: цена (внутри рамки) + кнопки (снаружи) --- */}
                         <div className="mt-10 rounded-xl border border-softGray p-5 md:p-6 bg-white/70">
@@ -186,8 +137,6 @@ const ExperienceSec = () => {
                         </div>
                         {/* --- /CTA --- */}
 
-=======
->>>>>>> e6822f8dff086773df1787d4e30f27b710bbbbe1
                     </div>
                 </div>
             </div>
@@ -195,8 +144,4 @@ const ExperienceSec = () => {
     );
 };
 
-<<<<<<< HEAD
 export default ExperienceSec;
-=======
-export default ExperienceSec;
->>>>>>> e6822f8dff086773df1787d4e30f27b710bbbbe1

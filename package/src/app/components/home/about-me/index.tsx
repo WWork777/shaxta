@@ -1,97 +1,69 @@
 import Image from "next/image";
 
 const AboutMe = () => {
-    return (
-        <section>
-            <div className="relative bg-softGray py-10 md:py-32">
-                <div className="absolute top-0 w-full px-9">
-                    {/* <Image
-                        src="/images/home/about-me/resume-bg-img.svg"
-                        alt="resume-bg-img"
-                        width={1200}
-                        height={348}
-                        className="w-full"
-                    /> */}
-                </div>
+  return (
+    <section>
+      <div className="relative bg-softGray py-10 md:py-32">
+        <div className="absolute top-0 w-full px-9">{/* bg vector off */}</div>
 
-                <div className="relative z-10">
-                    <div className="container">
-                        <div className="flex items-center justify-between gap-2 border-b border-black pb-7">
-                            <h2>О шахте</h2>
-                            <p className="text-xl text-primary">( 01 )</p>
-                        </div>
-
-                        <div className="pt-10 xl:pt-16 flex gap-10 items-center justify-between">
-                            <div className="w-[303px] h-[440px]  hidden lg:flex rounded-[10px] overflow-hidden">
-                                <Image
-                                    src="/images/home/banner/shaxta02.jpg"
-                                    alt="about-banner"
-                                    width={303}
-                                    height={440}
-                                    className="w-full h-full"
-                                />
-                            </div>
-
-                            <div className="w-full lg:max-w-2xl flex-1">
-                                <p>
-<<<<<<< HEAD
-                                    Шахта в Кузбассе с подтверждёнными запасами и действующей инфраструктурой: две линии сухого обогащения (УСО), собственная ж/д станция и 19 км контактной сети, квоты на восточное направление.
-                                    <br />
-                                    Качество угля марки Д/ДГ: 6500–6950 ккал/кг (нрм), фосфор 0,009%, зола 2,6–5%, оксид железа Fe₂O₃ ≤ 0,3%, оксид алюминия Al₂O₃ ≤ 1,2%.
-                                    <br />Сбыт полностью подтвержден контрактами.                               </p>
-=======
-                                    Шахта в Кузбассе с подтверждёнными балансовыми запасами 97,3 млн тонн (потенциал с учётом ресурсов — до 277,5 млн тонн). Добываемый уголь марки D/DГ высокого и стабильного качества: 6 500–6 950 ккал (АР), зольность 2,6–5%, фосфор около 0,009%.
-                                    <br />
-                                    Инфраструктура готова к работе: 2 установки сухой сепарации (УСО), собственная железнодорожная станция с пропускной способностью порядка ≈210 тыс. тонн в месяц, 19,2 км контактной сети.
-                                    <br />
-                                    Сбыт выстроен: поставки на внутренний рынок (Россия, Казахстан, Азербайджан) и экспортные направления — Китай, Индия. Возобновление добычи возможно в течение 2–3 месяцев после выполнения регламентов и переподписания технической документации.                                </p>
->>>>>>> e6822f8dff086773df1787d4e30f27b710bbbbe1
-
-                                <div className="grid grid-cols-3 py-10 xl:py-16 gap-5 border-b border-mistGray">
-                                    {[
-                                        { count: "97+", label: "млн тонн" },
-<<<<<<< HEAD
-                                        { count: "4,5", label: "Лет окупаемость" },
-=======
-                                        { count: "5 лет", label: "Окупаемость" },
->>>>>>> e6822f8dff086773df1787d4e30f27b710bbbbe1
-                                        { count: "100%", label: "Ликвидность" },
-                                    ].map((item, i) => (
-                                        <div key={i}>
-                                            <h3>{item.count}</h3>
-                                            <p className="text-base md:text-lg text-black">{item.label}</p>
-                                        </div>
-                                    ))}
-                                </div>
-
-                                <div className="pt-8 xl:pt-14 flex flex-col sm:flex-row items-center gap-4">
-                                    <div className="flex items-center gap-3.5">
-                                        {/* <Image
-                                            src="/images/icon/lang-icon.svg"
-                                            alt="lang-icon"
-                                            width={30}
-                                            height={30}
-                                        /> */}
-                                        <p className="text-base xl:text-xl text-black">Документы по запросу и NDA.</p>
-                                    </div>
-                                    {/* <div className="flex flex-wrap justify-center items-center gap-2.5">
-                                        {["English", "Hindi", "Malayalam"].map((lang) => (
-                                            <p
-                                                key={lang}
-                                                className="bg-white py-2 md:py-3.5 px-4 md:px-5 w-fit rounded-full text-base xl:text-xl"
-                                            >
-                                                {lang}
-                                            </p>
-                                        ))}
-                                    </div> */}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div className="relative z-10">
+          <div className="container">
+            <div className="flex items-center justify-between gap-2 border-b border-black pb-7">
+              <h2>О шахте</h2>
+              <p className="text-xl text-primary">( 01 )</p>
             </div>
-        </section>
-    );
+
+            <div className="pt-10 xl:pt-16 flex gap-10 items-center justify-between">
+              <div className="w-[303px] h-[440px] hidden lg:flex rounded-[10px] overflow-hidden">
+                <Image
+                  src="/images/home/banner/shaxta02.jpg"
+                  alt="about-banner"
+                  width={303}
+                  height={440}
+                  className="w-full h-full"
+                />
+              </div>
+
+              <div className="w-full lg:max-w-2xl flex-1">
+                <p>
+                  Шахта в Кузбассе с{" "}
+                  <span className="font-semibold text-black">подтверждёнными запасами</span> и{" "}
+                  <span className="font-semibold text-black">действующей инфраструктурой</span>: две линии{" "}
+                  <span className="font-semibold text-black">сухого обогащения</span> (УСО),{" "}
+                  <span className="font-semibold text-black">собственная ж/д станция</span> и 19 км контактной сети,{" "}
+                  <span className="font-semibold text-black">квоты на восток</span>.
+                  <br />
+                  Качество угля марки Д/ДГ: 6500–6950 ккал/кг (нрм), фосфор 0,009%, зола 2,6–5%, оксид железа Fe₂O₃ ≤
+                  0,3%, оксид алюминия Al₂O₃ ≤ 1,2%.
+                  <br />
+                  Сбыт полностью подтвержден контрактами.
+                </p>
+
+                <div className="grid grid-cols-3 py-10 xl:py-16 gap-5 border-b border-mistGray">
+                  {[
+                    { count: "97+", label: "млн тонн" },
+                    { count: "4,5", label: "Лет окупаемость" },
+                    { count: "100%", label: "Ликвидность" },
+                  ].map((item, i) => (
+                    <div key={i}>
+                      <h3>{item.count}</h3>
+                      <p className="text-base md:text-lg text-black">{item.label}</p>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="pt-8 xl:pt-14 flex flex-col sm:flex-row items-center gap-4">
+                  <div className="flex items-center gap-3.5">
+                    <p className="text-base xl:text-xl text-black">Документы по запросу и NDA.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </section>
+  );
 };
 
 export default AboutMe;
