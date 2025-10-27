@@ -39,15 +39,21 @@ const AboutMe = () => {
                   Сбыт полностью подтвержден контрактами.
                 </p>
 
-                <div className="grid grid-cols-3 py-10 xl:py-16 gap-5 border-b border-mistGray">
+                {/* метрики — мобильные размеры уменьшены, десктоп не трогаем */}
+                <div className="grid grid-cols-3 py-6 md:py-10 xl:py-16 gap-3 md:gap-5 border-b border-mistGray">
                   {[
                     { count: "97+", label: "млн тонн" },
                     { count: "4,5", label: "Лет окупаемость" },
                     { count: "100%", label: "Ликвидность" },
                   ].map((item, i) => (
-                    <div key={i}>
-                      <h3>{item.count}</h3>
-                      <p className="text-base md:text-lg text-black">{item.label}</p>
+                    <div key={i} className="min-w-0">
+                      {/* на мобиле — меньше цифры, плотнее межстрочное */}
+                      <h3 className="text-3xl sm:text-5xl md:text-inherit leading-none tracking-tight">
+                        {item.count}
+                      </h3>
+                      <p className="text-xs sm:text-sm md:text-lg text-black">
+                        {item.label}
+                      </p>
                     </div>
                   ))}
                 </div>

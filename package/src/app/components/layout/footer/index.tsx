@@ -20,12 +20,18 @@ const Footer = () => {
                         </span>
                     </h3>
 
-                    <div className="flex flex-wrap items-center justify-center gap-3 md:gap-4 mt-1">
+                    {/* Кнопки: всегда в один ряд + скрытый горизонтальный скролл на узких экранах */}
+                    <div
+                        className="mt-1 -mx-1 overflow-x-auto flex flex-nowrap items-center justify-start gap-2 md:gap-4
+             [scrollbar-width:none] [-ms-overflow-style:none] no-scrollbar"
+                    >
                         {/* Позвонить */}
                         <a
                             href="tel:+79039073334"
                             aria-label="Позвонить"
-                            className="inline-flex items-center justify-center rounded-full px-5 md:px-6 py-2.5 md:py-3 bg-black text-white text-base md:text-lg font-medium hover:opacity-90 transition"
+                            className="shrink-0 whitespace-nowrap inline-flex items-center justify-center
+               rounded-full px-4 md:px-6 py-2 md:py-3 text-sm md:text-lg
+               bg-black text-white font-medium hover:opacity-90 transition"
                         >
                             Позвонить
                         </a>
@@ -36,7 +42,9 @@ const Footer = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="WhatsApp"
-                            className="inline-flex items-center justify-center rounded-full px-5 md:px-6 py-2.5 md:py-3 text-base md:text-lg font-medium text-white transition"
+                            className="shrink-0 whitespace-nowrap inline-flex items-center justify-center
+               rounded-full px-4 md:px-6 py-2 md:py-3 text-sm md:text-lg
+               font-medium text-white transition"
                             style={{ backgroundColor: "#25D366" }}
                         >
                             WhatsApp
@@ -48,12 +56,15 @@ const Footer = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="Telegram"
-                            className="inline-flex items-center justify-center rounded-full px-5 md:px-6 py-2.5 md:py-3 text-base md:text-lg font-medium text-white transition"
+                            className="shrink-0 whitespace-nowrap inline-flex items-center justify-center
+               rounded-full px-4 md:px-6 py-2 md:py-3 text-sm md:text-lg
+               font-medium text-white transition"
                             style={{ backgroundColor: "#229ED9" }}
                         >
                             Telegram
                         </a>
                     </div>
+
                 </div>
 
                 {/* Нижняя разделительная линия (по желанию можно убрать) */}

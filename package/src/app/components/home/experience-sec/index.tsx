@@ -105,11 +105,14 @@ const ExperienceSec = () => {
                             </p>
                         </div>
 
-                        {/* Кнопки вне рамки, в ряд (на мобилке — переносятся) */}
-                        <div className="mt-4 flex flex-wrap items-center gap-3">
+                        {/* Кнопки вне рамки — всегда в один ряд */}
+                        <div className="mt-4 -mx-1 overflow-x-auto flex flex-nowrap items-center gap-2
+                [scrollbar-width:none] [-ms-overflow-style:none] no-scrollbar">
                             <a
                                 href="tel:+79039073334"
-                                className="rounded-full px-5 py-2.5 text-[15px] font-medium text-white bg-black hover:bg-gray-900 transition"
+                                className="shrink-0 whitespace-nowrap rounded-full px-4 py-2 text-sm
+               md:px-5 md:py-2.5 md:text-[15px] font-medium text-white
+               bg-black hover:bg-gray-900 transition"
                                 aria-label="Позвонить Дмитрию"
                             >
                                 Позвонить
@@ -117,9 +120,10 @@ const ExperienceSec = () => {
 
                             <a
                                 href="https://wa.me/79039073334?text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8E%20%D0%BF%D0%BE%20%D1%88%D0%B0%D1%85%D1%82%D0%B5"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="rounded-full px-5 py-2.5 text-[15px] font-medium text-white bg-[#25D366] hover:brightness-95 transition"
+                                target="_blank" rel="noopener noreferrer"
+                                className="shrink-0 whitespace-nowrap rounded-full px-4 py-2 text-sm
+               md:px-5 md:py-2.5 md:text-[15px] font-medium text-white
+               bg-[#25D366] hover:brightness-95 transition"
                                 aria-label="Написать в WhatsApp"
                             >
                                 WhatsApp
@@ -127,16 +131,15 @@ const ExperienceSec = () => {
 
                             <a
                                 href="https://t.me/dmserhill"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="rounded-full px-5 py-2.5 text-[15px] font-medium text-white bg-[#229ED9] hover:brightness-95 transition"
+                                target="_blank" rel="noopener noreferrer"
+                                className="shrink-0 whitespace-nowrap rounded-full px-4 py-2 text-sm
+               md:px-5 md:py-2.5 md:text-[15px] font-medium text-white
+               bg-[#229ED9] hover:brightness-95 transition"
                                 aria-label="Написать в Telegram"
                             >
                                 Telegram
                             </a>
                         </div>
-                        {/* --- /CTA --- */}
-
                     </div>
                 </div>
             </div>
